@@ -1,0 +1,21 @@
+.navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar ul {
+
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+
+    margin-left: 10px;
+  }
+ 
+
+ 
+
