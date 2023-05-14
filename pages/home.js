@@ -9,7 +9,7 @@ const Home = () => {
       <p>This is the homepage.</p>
       <div>
 
-
+lol
       </div>
     </Layout>
   )
