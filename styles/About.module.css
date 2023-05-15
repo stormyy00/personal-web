@@ -5,3 +5,9 @@
     left: 45%;
     
   }
+  .body{
+    background-image: linear-gradient(
+        to top right, #cdcdcb, rgb(53, 49, 49)
+    );
+    min-height: 150vh;
+  }
