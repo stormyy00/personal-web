@@ -1,5 +1,5 @@
 import Myapp from '.'
-import indexLayout from './indexLayout';
+
 
 import styles from '@/styles/Home.module.css'
 const Home = () => {
