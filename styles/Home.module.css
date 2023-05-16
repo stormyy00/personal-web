@@ -1,17 +1,31 @@
 .title {
-  position: absolute;
+  position: relative;
   text-align: center;
-  top: 5px;
-  left: 39%;
+  top: 10px;
+  font-size: 25px;
+}
+
+.body{
+background-color: rgb(105, 95, 95);
+  /* background-image: linear-gradient(
+    to top right, #f8f7fb, rgba(170, 157, 11, 0.342) */
+
+/* ); */
+position: relative;
+min-height: 150vh;
+
 
 }
-.body{
-  background-image: linear-gradient(
-    to top right, #f8f7fb, rgba(170, 157, 11, 0.342)
 
-);
 
-min-height: 150vh;
+
+
+.image{
+  position: absolute;
+  padding: 0px;
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
 
 }
 /* .main {
@@ -23,17 +37,53 @@ min-height: 150vh;
   min-height: 100vh;
 } */
 
-/* .description {
-  display: inherit;
+.description {
+  position: relative;
+  top: 40vh;
+  text-align: center;
+  display: center;
   justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
+  align-items: center;
+  font-size: 30px;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }
 
+.cont{
+  margin-top: 30px;;
+padding: 10px;
+
+}
+
+.button{
+  font-size: 25px;
+  position: relative;
+  top:10px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 30%;
+  background-color: black;
+  margin-top: 7px;
+}
+.column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+}
+.button1{
+gap: 10px;
+  font-size: 25px;
+  position: relative;
+  top:10px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 15%;
+  background-color: black;
+  margin-top: 7px;
+}
+/*
 .description a {
   display: flex;
   justify-content: center;

@@ -1,15 +1,18 @@
-import Myapp from '.'
-
+import Home from '.'
+import Image from 'next/image';
 import styles from '@/styles/Project.module.css'
 
 const Project = () => {
   return (
     
-    <Myapp title="Projects">
-     
+
       <div className={styles.body}>
+       <div className={styles.image}>
+    <Image src="/1661293325102.jpeg" alt="me" width="1412" height="400" object-fit='contain'/>
+  </div>
       <div className={styles.title}>
-      <h1>My Projects</h1>
+      <h1>Project Directory</h1>
+      <p>C++ | HTML | CSS | Javascript | Python</p>
       </div>
 
       <div className={styles.slider}>
@@ -41,9 +44,9 @@ const Project = () => {
 </div>
 
 
- 
+
       </div>
-    </Myapp>
+
   )
 }
 
