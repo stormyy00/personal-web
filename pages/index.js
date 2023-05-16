@@ -10,7 +10,7 @@ export default function Home() {
   <div className={styles.body}>
 
     <div className={styles.image}>
-    <Image src="/DSC00350.png" alt="me" width="1412" height="400" object-fit='contain'/>
+    <Image src="/DSC00350.png" alt="me" width="1412" height="400" quality='100' object-fit='fill'/>
   </div>
 
       <div className={styles.title}>

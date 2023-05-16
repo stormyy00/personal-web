@@ -29,10 +29,10 @@ color: rgb(30, 239, 239);
   }
   .image{
     position: relative;
-
+    background-size: contain;
     width: 200px;
     height: 300px;
-    object-fit: cover;
+    object-fit: fill;
   
   }
   .slider{

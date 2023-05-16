@@ -7,7 +7,7 @@ const About = () => {
 
       <div className={styles.body}>
       <div className={styles.image}>
-    <Image src="/image.jpeg" alt="me" width="1412" height="400" object-fit='contain'/>
+    <Image src="/image.jpeg" alt="me" width="1412" height="400" quality='100'object-fit='fill'/>
   </div>
       <div className={styles.title}>
       <h1>About me</h1>

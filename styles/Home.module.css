@@ -22,10 +22,11 @@ min-height: 150vh;
 
 .image{
   position: absolute;
+  background-size: contain;
   padding: 0px;
   width: 200px;
   height: 300px;
-  object-fit: contain;
+  object-fit: fill;
 
 }
 /* .main {
