@@ -34,12 +34,12 @@ export default function Home() {
 
       <div className={styles.buttonn}>
         
-          <Link href="https://drive.google.com/drive/u/1/my-drive"><button className={styles.button1}>Resume</button></Link>
+          <Link href="https://drive.google.com/file/d/1_e6Mw3iJFNE8uHfypWPV6YFh-uYRw57-/view?usp=sharing"><button className={styles.button1}>Resume</button></Link>
 
 
 
 
-          <Link href="https://drive.google.com/drive/u/1/my-drive"><button className={styles.button1}>Github</button></Link>
+          <Link href="https://github.com/stormyy00"><button className={styles.button1}>Github</button></Link>
 
           </div>
         </div>
