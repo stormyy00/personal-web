@@ -1,5 +1,5 @@
 .title {
-    position: relative;
+  position: relative;
   text-align: center;
   bottom: 30vh;
   font-size: 25px;
@@ -10,12 +10,12 @@
         to top right, #cdcdcb, rgb(53, 49, 49)
     );
     min-height: 120vh;
-    
+    position: relative;
   
   }
   
   .bg{
-
+    
     background-image: url(/image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
-  gap: 200px;
+  /* gap: 200px; */
   font-size: 25px;  
   }
 
@@ -44,7 +44,7 @@
     outline-color: black;
     outline-width: 5px;
 
-    max-width: 50%;
+
   }
 
   .button{
