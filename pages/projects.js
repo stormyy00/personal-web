@@ -1,5 +1,5 @@
 import styles from '@/styles/Project.module.css'
-
+import Link from 'next/link'
 const Project = () => {
   return (
     
@@ -15,28 +15,37 @@ const Project = () => {
 
       <div className={styles.slider}>
 
-        <ul className={styles.container}>
-          <a href="/project1">Personal Website</a>
-          <p className={styles.description}>description geat thime seeing yiou but i miss you 
-          al ot plea come bck </p>
-        </ul>
-        <ul className={styles.container}>
-          <a href="/project2">Playlist Maker</a>
-          <p className={styles.description}> description</p>
-        </ul>
-        <ul className={styles.container}>
-          <a href="/project3">Joke Generator</a>
-          <p>hahah</p>
-        </ul>
-        <ul className={styles.container}>
-          <a href="/project4">Monster Hunter RPG</a>
-          <p>yes</p>
-        </ul>
-        <ul className={styles.container}>
-          <a href="/project5">CitrusHack 2023 Project</a>
-          <p>c++</p>
+      <Link href="/project4" className={styles.container}>
+          <a className={styles.ptitle} href="/project1">Personal Website</a>
+          {/* <p className={styles.description}>description geat thime seeing yiou but i miss you 
+          al ot plea come bck </p> */}
+          <div className={styles.img}/>
+          </Link>
+          
+        <Link href="/project4" className={styles.container}>
+          <p className={styles.ptitle} href="/project2">Monster Hunter RPG</p>
+          {/* <p className={styles.description}> description</p> */}
+          <div className={styles.img2}/>
+          </Link>
 
-        </ul>
+        <Link href="/project3"className={styles.container}>
+          <p className={styles.ptitle} >Joke Generator</p>
+          {/* <p>hahah</p> */}
+          <div className={styles.img3}/>
+          </Link>
+
+        <Link href="/project4" className={styles.container}>
+          <p className={styles.ptitle}>Playlist Maker</p>
+          {/* <p>yes</p> */}
+          <div className={styles.img4}/>
+        </Link>
+
+        <Link href="/project4" className={styles.container}>
+          <p className={styles.ptitle} href="/project5">CitrusHack 2023 Project</p>
+          {/* <p>c++</p> */}
+          <div className={styles.img5}/>
+
+          </Link>
        {/* <button id={styles.next}>&gt;</button>
        <button id={styles.prev}>&lt;</button> */}
 </div>

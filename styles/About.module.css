@@ -19,7 +19,7 @@
     background-image: url(/image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 47vh;
+    min-height: 45vh;
     background-position: center;
     padding-top: 4rem;
   }
@@ -44,7 +44,7 @@
     outline-color: black;
     outline-width: 5px;
 
-
+    max-width: 50%;
   }
 
   .button{

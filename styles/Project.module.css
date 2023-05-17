@@ -20,7 +20,7 @@ color: rgb(30, 239, 239);
         to top right, #885cf6, rgb(14, 199, 88)
     ); */
     bottom: 10%;
-    min-height: 180vh;
+    min-height: 200vh;
     margin: 0;
 
     justify-content: center;
@@ -31,7 +31,7 @@ color: rgb(30, 239, 239);
     background-image: url(/1661293325102.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 47vh;
+    min-height: 45vh;
     background-position: center;
     padding-top: 4rem;
   
@@ -42,27 +42,80 @@ color: rgb(30, 239, 239);
     gap: 90px; /* Gap between columns */
     
     position: absolute;
-    top: 76%;
+
     left: 10%;
     text-align: center;
-    width: 80%;
+    width: 83%;
     height: 100%;
     overflow: hidden; 
   }
 
   .container{
-     
+
      text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(47, 45, 45);
      border-radius: 25px; 
-border-style:solid;
-border-width: 3px;
-border-color: rgb(139, 135, 135);
+    border-style:solid;
+    border-width: 3px;
+    border-color: rgb(161, 156, 156);
 
     padding: 20px;
      transition: 0.5s;
     left: calc(50% - 110px);
     top: 0;   
+  }
+  .container:hover{
+    background-color: burlywood;
+
+  }
+.img{
+  background-image: url(/1378900-200.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-position: center;
+position: relative;
+top: 30px;
+  padding: 6rem;
+}
+.img2{
+  background-image: url(/pixel-art.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  background-position: center;
+  padding: 6rem;
+}
+.img3{
+  background-image: url(/School-Jokes-Feature.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  background-position: center;
+  padding: 6rem;
+}
+.img4{
+  background-image: url(/512x512bb.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  background-position: center;
+  padding: 6rem;
+}
+.img5{
+  background-image: url(/orangee.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  background-position: center;
+  padding: 6rem;
+}
+  .ptitle{
+    font-size: 25px;
   }
    /* #next, #prev{
     position: absolute;
