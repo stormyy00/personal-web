@@ -2,7 +2,6 @@ import styles from '@/styles/Project.module.css'
 import Link from 'next/link'
 const Project = () => {
   return (
-    
 
       <div className={styles.body}>
        <div className={styles.bg}>
@@ -15,15 +14,15 @@ const Project = () => {
 
       <div className={styles.slider}>
 
-      <Link href="/project4" className={styles.container}>
-          <a className={styles.ptitle} href="/project1">Personal Website</a>
+      <Link href="/project1" className={styles.container}>
+          <a className={styles.ptitle} >Personal Website</a>
           {/* <p className={styles.description}>description geat thime seeing yiou but i miss you 
           al ot plea come bck </p> */}
           <div className={styles.img}/>
           </Link>
-          
-        <Link href="/project4" className={styles.container}>
-          <p className={styles.ptitle} href="/project2">Monster Hunter RPG</p>
+
+        <Link href="/project2" className={styles.container}>
+          <p className={styles.ptitle} >Monster Hunter RPG</p>
           {/* <p className={styles.description}> description</p> */}
           <div className={styles.img2}/>
           </Link>
@@ -40,8 +39,8 @@ const Project = () => {
           <div className={styles.img4}/>
         </Link>
 
-        <Link href="/project4" className={styles.container}>
-          <p className={styles.ptitle} href="/project5">CitrusHack 2023 Project</p>
+        <Link href="/project5" className={styles.container}>
+          <p className={styles.ptitle} >CitrusHack 2023 Project</p>
           {/* <p>c++</p> */}
           <div className={styles.img5}/>
 
