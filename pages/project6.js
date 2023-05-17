@@ -1,6 +1,6 @@
 
 import styles from '@/styles/p1.module.css'
-const Project5 = () => {
+const Project6 = () => {
     return(
     
         <>
@@ -11,7 +11,7 @@ const Project5 = () => {
         </div>
         
         <div className={styles.title}>
-            <h1>CutieHack2023</h1>
+            <h1>Spotify Top Ten</h1>
     
         </div>
         <div className={styles.body2}>
@@ -21,10 +21,9 @@ const Project5 = () => {
             <div className={styles.container}>
                 <div className={styles.components}>
                     Components used:
-                   <ul>VueJs
-                    <p>Google Cloud</p>
-                    Twilio
-                    <p>AppWrite</p>
+                   <ul>Python
+                    <p>Spotify API</p>
+                
             
                     </ul>
                 </div>
@@ -34,13 +33,8 @@ const Project5 = () => {
     
             <div className={styles.description}>
     
-            This portfolio website was meticulously crafted to exhibit my
-             personal projects and demonstrate my adeptness in website development. 
-             It was meticulously designed and skillfully developed within a span of two days, 
-             with no less than eight hours dedicated per day. This endeavor provided me with 
-             invaluable experience in working with the sophisticated Next.js framework, enabling
-              me to refine my proficiency 
-             in web development.
+                Using spoitfy's api and acessing there data base we are abkle to acesss
+                artists top ten streamed songs 
              <div className={styles.line}>
     
              </div>
@@ -60,4 +54,4 @@ const Project5 = () => {
         );
     
     }
-    export default Project5
+    export default Project6

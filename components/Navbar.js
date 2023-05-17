@@ -4,7 +4,7 @@ const Navbar = () => {
     
         <div>
        
-        <div></div>
+        <div className={styles.bar}>
         <ul className={styles.port}>
         <li>
                 <a href="/">portfolio</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
             </ul>
           </nav>
         </header>
-
+        </div>
       </div>
     
     

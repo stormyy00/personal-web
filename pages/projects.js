@@ -15,7 +15,7 @@ const Project = () => {
       <div className={styles.slider}>
 
       <Link href="/project1" className={styles.container}>
-          <a className={styles.ptitle} >Personal Website</a>
+          <p className={styles.ptitle} >Personal Website</p>
           {/* <p className={styles.description}>description geat thime seeing yiou but i miss you 
           al ot plea come bck </p> */}
           <div className={styles.img}/>
@@ -40,10 +40,14 @@ const Project = () => {
         </Link>
 
         <Link href="/project5" className={styles.container}>
-          <p className={styles.ptitle} >CitrusHack 2023 Project</p>
+          <p className={styles.ptitle}>CitrusHack 2023 Project</p>
           {/* <p>c++</p> */}
           <div className={styles.img5}/>
-
+          </Link>
+          <Link href="/project6" className={styles.container}>
+          <p className={styles.ptitle}>Spotify Top 10</p>
+          {/* <p>c++</p> */}
+          <div className={styles.img5}/>
           </Link>
        {/* <button id={styles.next}>&gt;</button>
        <button id={styles.prev}>&lt;</button> */}

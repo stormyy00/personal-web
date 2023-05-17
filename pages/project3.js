@@ -1,5 +1,5 @@
 
-import styles from '@/styles/p1.module.css'
+import styles from '@/styles/p3.module.css'
 const Project3 = () => {
     return(
         <>
@@ -10,33 +10,43 @@ const Project3 = () => {
             <h1>Joke Generator</h1>
             -Google Extension
         </div>
+        <div className={styles.body2}>
+        </div>
+    <div className={styles.columns}>
+
         <div className={styles.container}>
-            <div className={styles.description}>
-    
-                    <p className={styles.contain}>
-                        This program was developed to generate random jokes 
+            <div className={styles.components}>
+                Components used:
+               <ul>HTML
+                <p>CSS</p>
+                Javascript
+                </ul>
+            </div>
+
+
+        </div>
+                    <div className={styles.description}>
+
+                    This program was developed to generate random jokes 
                         through an API using this website. The intent of this app is
                         to allow the user to be entertained during a break from 
                         studying, work, etc.
+ <div className={styles.line}>
 
-
-                    </p>
-                    components used
-                   <p>HTML 
-                    CSS 
-                    Javascript
-
-                    </p>
-                    <p>github reposity</p>
-                    <a href='github.com'>Here</a>
-                </div>
-    
-    
-            </div>
-        
+ </div>
         </div>
-        
-        </>
+<div className={styles.link}>Github Repository
+<ul>
+        <a href='https://github.com/stormyy00/personal-web'className={styles.button}>View</a>
+        </ul>
+ </div>
+</div>
+
+
+
+</div>
+
+</>
         );
     
     }

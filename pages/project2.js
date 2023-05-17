@@ -1,5 +1,5 @@
 
-import styles from '@/styles/p1.module.css'
+import styles from '@/styles/p2.module.css'
 const Project2 = () => {
     return(
     
@@ -7,22 +7,44 @@ const Project2 = () => {
         <div className={styles.body}>
         <div className={styles.bg}>
         </div>
-        <div className={styles.title}>
+        <div className={styles.title2}>
             <h1>Monster Hunter RPG</h1>
+
             <h1 className={styles.h1}>Developed by Jonathan Trujillo and Ryan Lew</h1>
         </div>
+        
+        <div className={styles.body2}>
+        </div>
+    <div className={styles.columns}>
+
         <div className={styles.container}>
-            <div className={styles.description}>
-    
-                    <p>
-                        This program was developed to showcase my personal projects
-                    </p>
-                    components used
-                   <p>nextjs
-                    vercel
-                    </p>
-                    <p>github reposity</p>
-                    <a href='https://github.com/stormyy00/Monster-Hunter-RPG'>Here</a>
+            <div className={styles.components}>
+                Components used:
+               <ul>C++
+                <p>UML Diagram</p>
+                    Valgrind(debugger)
+                </ul>
+            </div>
+
+
+        </div>
+        <div className={styles.description}>
+
+This portfolio website was meticulously crafted to exhibit my
+ personal projects and demonstrate my adeptness in website development. 
+ It was meticulously designed and skillfully developed within a span of two days, 
+ with no less than eight hours dedicated per day. This endeavor provided me with 
+ invaluable experience in working with the sophisticated Next.js framework, enabling
+  me to refine my proficiency 
+ in web development.
+ <div className={styles.line}>
+
+ </div>
+        </div>
+<div className={styles.link}>Github Repository
+<ul>
+                    <a href='https://github.com/stormyy00/Monster-Hunter-RPG'className={styles.button}>View</a>
+               </ul>
                 </div>
     
     

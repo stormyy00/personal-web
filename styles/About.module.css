@@ -19,7 +19,7 @@
     background-image: url(/image.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 45vh;
+    min-height: 50vh;
     background-position: center;
     padding-top: 4rem;
   }

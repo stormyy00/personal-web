@@ -10,7 +10,7 @@
     width: 90vh;
     height: 70vh;
     top: 65%;
-    bottom: 70px;
+    bottom: 105px;
 
 
 }
@@ -82,7 +82,6 @@ font-size: 25px;
     font-size: 18px;
     font-family: sans-serif; 
     text-align: center;
-    margin-top: 20px;
 }
 .button{
     font-size: 15px;

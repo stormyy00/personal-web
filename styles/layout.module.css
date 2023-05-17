@@ -1,3 +1,11 @@
+ .bar{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 8%;
+  z-index: 10;
+ }
+ /* change back to original?? */
  .navbar {
 
     padding: 20px;
@@ -10,6 +18,8 @@
     font-family: serif;
     display: flex;
     list-style-type: none;
+    font-size: medium;
+    position: relative;
   }
   
   .navbar li {
