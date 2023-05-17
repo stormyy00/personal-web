@@ -3,18 +3,20 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 
+
 export default function Home() {
   return (
-  
+
 
   <div className={styles.body}>
 
-    <div className={styles.image}>
-    <Image src="/DSC00350.png" alt="me" width="1412" height="400" quality='100' object-fit='fill'/>
+    <div className={styles.bg}>
+    {/* <Image src="/DSC00350.png" alt="me" width="1412" height="400" quality='100' object-fit='fill'/> */}
   </div>
 
       <div className={styles.title}>
       <h1>Jonathan Trujillo</h1>
+      Website Porfolio
       </div>
 
       <div className={styles.description}>Computer Science student @ 

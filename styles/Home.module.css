@@ -1,7 +1,7 @@
 .title {
   position: relative;
   text-align: center;
-  top: 10px;
+  bottom: 50vh;
   font-size: 25px;
 }
 
@@ -20,13 +20,13 @@ min-height: 150vh;
 
 
 
-.image{
-  position: absolute;
-  background-size: contain;
-  padding: 0px;
-  width: 200px;
-  height: 300px;
-  object-fit: fill;
+.bg{
+  background-image: url(/DSC00350.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 47vh;
+  background-position: center;
+  padding-top: 4rem;
 
 }
 /* .main {
@@ -40,7 +40,7 @@ min-height: 150vh;
 
 .description {
   position: relative;
-  top: 40vh;
+  bottom: 20vh;
   text-align: center;
   display: center;
   justify-content: inherit;

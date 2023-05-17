@@ -1,14 +1,22 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+
 import styles from '@/styles/About.module.css'
 const About = () => {
   return (
+<>
+{/* <div className={styles.image}>
+    <Image layout='contain' src="/image.jpeg" alt="me" width={1412} height={400} quality='100'/>
+  </div> */}
 
       <div className={styles.body}>
-      <div className={styles.image}>
-    <Image src="/image.jpeg" alt="me" width="1412" height="400" quality='100'object-fit='fill'/>
+
+
+      <div className={styles.bg}>
+    {/* <img src="/image.jpeg" alt="me" width={1412} height={400} quality='100'/> */}
   </div>
+
       <div className={styles.title}>
       <h1>About me</h1>
       </div>
@@ -31,7 +39,7 @@ const About = () => {
       
        </div>
 
-
+</>
   )
 }
 

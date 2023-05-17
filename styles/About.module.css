@@ -1,7 +1,7 @@
 .title {
     position: relative;
   text-align: center;
-  top: 10px;
+  bottom: 30vh;
   font-size: 25px;
     
   }
@@ -10,14 +10,18 @@
         to top right, #cdcdcb, rgb(53, 49, 49)
     );
     min-height: 120vh;
+
+  
   }
-  .image{
-    position: absolute;
-    padding: 0px;
-    background-size: contain;
-    width: 200px;
-    height: 300px;
-    object-fit: contain;
+  
+  .bg{
+
+    background-image: url(/image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 47vh;
+    background-position: center;
+    padding-top: 4rem;
   }
 .container{
   position: absolute;

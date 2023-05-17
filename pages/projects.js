@@ -7,8 +7,8 @@ const Project = () => {
     
 
       <div className={styles.body}>
-       <div className={styles.image}>
-    <Image src="/1661293325102.jpeg" alt="me" width="1412" height="400" quality='100' object-fit='fill'/>
+       <div className={styles.bg}>
+    {/* <Image src="/1661293325102.jpeg" alt="me" width="1412" height="400" quality="100" layout="contain" /> */}
   </div>
       <div className={styles.title}>
       <h1>Project Directory</h1>
@@ -18,24 +18,24 @@ const Project = () => {
       <div className={styles.slider}>
 
         <ul className={styles.container}>
-          <a href="#">Personal Website</a>
+          <a href="/project1">Personal Website</a>
           <p className={styles.description}>description geat thime seeing yiou but i miss you 
           al ot plea come bck </p>
         </ul>
         <ul className={styles.container}>
-          <a href="#">Playlist Maker</a>
+          <a href="/project2">Playlist Maker</a>
           <p className={styles.description}> description</p>
         </ul>
         <ul className={styles.container}>
-          <a href="#">Joke Generator</a>
+          <a href="/project3">Joke Generator</a>
           <p>hahah</p>
         </ul>
         <ul className={styles.container}>
-          <a href="#">Monster Hunter RPG</a>
+          <a href="/project4">Monster Hunter RPG</a>
           <p>yes</p>
         </ul>
         <ul className={styles.container}>
-          <a href="#">CitrusHack 2023 Project</a>
+          <a href="/project5">CitrusHack 2023 Project</a>
           <p>c++</p>
 
         </ul>
