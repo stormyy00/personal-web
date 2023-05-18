@@ -78,20 +78,24 @@ font-size: 25px;
 .components{
     font-size: 25px;
     font-family: sans-serif; 
+    position: relative;
+    top: 15px;
 }
 .link{
     font-size: 18px;
     font-family: sans-serif; 
     text-align: center;
-    margin-top: 7px;
+    margin-top: 0px;
+    position: relative;
+    bottom:60px;
 }
 .button{
     font-size: 15px;
     position: relative;
-    top:35px;
+    top:25px;
     border-radius: 15px;
     padding: 20px;
     width: 5%;
     background-color: black;
-    margin-top: 7px;
+
   }

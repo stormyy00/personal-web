@@ -1,5 +1,5 @@
 
-import styles from '@/styles/p6.module.css'
+import styles from '@/styles/projects/p6.module.css'
 const Project6 = () => {
     return(
     
