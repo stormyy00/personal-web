@@ -30,13 +30,15 @@ const Project2 = () => {
         </div>
         <div className={styles.description}>
 
-This portfolio website was meticulously crafted to exhibit my
- personal projects and demonstrate my adeptness in website development. 
- It was meticulously designed and skillfully developed within a span of two days, 
- with no less than eight hours dedicated per day. This endeavor provided me with 
- invaluable experience in working with the sophisticated Next.js framework, enabling
-  me to refine my proficiency 
- in web development.
+        Drawing inspiration from the hub-based game Monster Hunter, embark on
+         thrilling quests and face formidable monsters in intense one-on-one 
+         battles. Choose from a variety of quests, strategize your attacks, 
+         and prove your skills as you progress through the game. But beware, 
+         your health is limited, and if it reaches zero, your journey ends. 
+         With a user-friendly interface and dynamic output, our text-based RPG 
+         adventure awaits, offering exciting challenges and the thrill of strategic 
+         decision-making. Prepare for an unforgettable gaming experience 
+        that will leave you craving more thrilling adventures.
  <div className={styles.line}>
 
  </div>

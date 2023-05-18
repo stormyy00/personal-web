@@ -30,10 +30,11 @@ padding-top: 4rem;
     text-align: center;
     position: absolute;
     max-width: 95%;
-    bottom:5vh;
+    bottom:10vh;
 }
 .container{
-    
+    position: relative;
+    bottom: 20px;
     padding: 10px;
 
 }
@@ -68,7 +69,7 @@ font-size: 25px;
 
 .line {
     position: relative;
-    top:10px;
+    top:15px;
     height: 1px;
     border: 0;
     background: rgb(37, 36, 36);
@@ -82,12 +83,12 @@ font-size: 25px;
     font-size: 18px;
     font-family: sans-serif; 
     text-align: center;
-    margin-top: 20px;
+    margin-top: 7px;
 }
 .button{
     font-size: 15px;
     position: relative;
-    top:30px;
+    top:35px;
     border-radius: 15px;
     padding: 20px;
     width: 5%;

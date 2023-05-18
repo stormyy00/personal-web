@@ -8,7 +8,7 @@
  /* change back to original?? */
  .navbar {
 
-    padding: 20px;
+    padding: 21px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -18,7 +18,7 @@
     font-family: serif;
     display: flex;
     list-style-type: none;
-    font-size: medium;
+    font-size: large;
     position: relative;
   }
   

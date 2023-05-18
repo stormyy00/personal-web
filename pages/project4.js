@@ -1,5 +1,5 @@
 
-import styles from '@/styles/p1.module.css'
+import styles from '@/styles/p4.module.css'
 const Project4 = () => {
     return(
         <>
@@ -20,8 +20,8 @@ const Project4 = () => {
             <div className={styles.container}>
                 <div className={styles.components}>
                     Components used:
-                   <ul>Nextjs
-                    <p>Vercel</p>
+                   <ul>C++
+
                     </ul>
                 </div>
     
@@ -30,13 +30,23 @@ const Project4 = () => {
     
             <div className={styles.description}>
     
-            This portfolio website was meticulously crafted to exhibit my
-             personal projects and demonstrate my adeptness in website development. 
-             It was meticulously designed and skillfully developed within a span of two days, 
-             with no less than eight hours dedicated per day. This endeavor provided me with 
-             invaluable experience in working with the sophisticated Next.js framework, enabling
-              me to refine my proficiency 
-             in web development.
+            Playlist Maker is a program implemented in C++ that allows users to create and manage their own personalized playlists. The program utilizes the Lists data structure to efficiently store and manipulate the playlist data.
+<ul className={styles.features}>
+Key Features:
+<p>
+Playlist Creation</p>
+Adding and Removing Songs
+<p>Playlist Management</p>
+Sorting and Shuffling:
+<p>Search Functionality </p>
+Save and Load: Users 
+<p>User-Friendly Interface</p>
+<p className={styles.finalp}>
+The Playlist Maker program efficiently utilizes the Lists data structure to handle dynamic playlists
+ and the manipulation of song data. It offers a comprehensive set of features for playlist creation, 
+ management, and customization, providing users with a powerful tool to organize and enjoy their favorite music.
+   </p>
+   </ul>
              <div className={styles.line}>
     
              </div>
