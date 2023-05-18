@@ -1,5 +1,5 @@
 
-import styles from '@/styles/p1.module.css'
+import styles from '@/styles/p6.module.css'
 const Project6 = () => {
     return(
     
@@ -33,8 +33,16 @@ const Project6 = () => {
     
             <div className={styles.description}>
     
-                Using spoitfy's api and acessing there data base we are abkle to acesss
-                artists top ten streamed songs 
+            This project is a Python-based application that utilizes the Spotify API to fetch 
+            and showcase the top ten most popular artists on Spotify. 
+            Features
+
+            Spotify API Integration: The project leverages the Spotify API, which allows it to access a vast music 
+            library and retrieve data about artists, including their popularity, genres, and top tracks.
+
+            Top Ten Artists: The application retrieves data from the Spotify API to generate a dynamic list of 
+            the top ten most popular artists based on the current rankings. 
+            The list is updated regularly to reflect the latest trends and changes in popularity.
              <div className={styles.line}>
     
              </div>
