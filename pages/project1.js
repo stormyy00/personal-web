@@ -15,7 +15,7 @@ const Project1 = () => {
 
     </div>
     <div className={styles.body2}>
-        </div>
+</div>
     <div className={styles.columns}>
 
         <div className={styles.container}>
@@ -50,7 +50,7 @@ const Project1 = () => {
          </div>
         </div>
 
-     
+
 
     </div>
     
