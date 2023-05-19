@@ -19,7 +19,7 @@ const Project4 = () => {
     
             <div className={styles.container}>
                 <div className={styles.components}>
-                    Components used:
+                Tech Stack:
                    <ul>C++
 
                     </ul>
@@ -39,8 +39,8 @@ Adding and Removing Songs
 <p>Playlist Management</p>
 Sorting and Shuffling:
 <p>Search Functionality </p>
-Save and Load: Users 
-<p>User-Friendly Interface</p>
+
+
 <p className={styles.finalp}>
 The Playlist Maker program efficiently utilizes the Lists data structure to handle dynamic playlists
  and the manipulation of song data. It offers a comprehensive set of features for playlist creation, 

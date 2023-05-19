@@ -19,7 +19,7 @@ const Project2 = () => {
 
         <div className={styles.container}>
             <div className={styles.components}>
-                Components used:
+                Tech Stack:
                <ul>C++
                 <p>UML Diagram</p>
                     Valgrind(debugger)

@@ -23,11 +23,14 @@ const About = () => {
 
 <div className={styles.container}>
 <div className={styles.card}>
-  I'm a web developer.
-     20 Years old located in riverside California
-      website is designed to show case my personal portfolio of coding projects
-      there are plans to add a seperate section for my photgraphy porfolio but
-       that is in-developemnt as of April 2023 
+
+    
+      I am a 20-year-old individual based in Riverside, California. I have developed a website that
+       serves as a platform to showcase my personal portfolio of coding projects. The website is designed to 
+       highlight my skills and expertise in various programming languages and technologies. As of April 2023, I 
+       am also working on incorporating a separate section to showcase my photography portfolio. This section is currently 
+       under development and will be added to the website in the future. Through my website, I aim to present my coding p
+       rojects and photography skills to potential clients, employers, or anyone interested in my work.
 
        </div>
 

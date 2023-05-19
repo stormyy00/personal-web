@@ -20,7 +20,7 @@ const Project6 = () => {
     
             <div className={styles.container}>
                 <div className={styles.components}>
-                    Components used:
+                    Tech Stack:
                    <ul>Python
                     <p>Spotify API</p>
                 

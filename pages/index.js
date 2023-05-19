@@ -30,7 +30,7 @@ export default function Home() {
         </ul>
         <ul>
           <li >
-              <button className={styles.button}><a href="/projects">Projects</a></button>
+              <a href="/projects"><button className={styles.button}>Projects</button></a>
         </li>
         </ul>
 

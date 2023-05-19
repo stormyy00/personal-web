@@ -12,11 +12,12 @@ const Project3 = () => {
         </div>
         <div className={styles.body2}>
         </div>
+
     <div className={styles.columns}>
 
         <div className={styles.container}>
             <div className={styles.components}>
-                Components used:
+            Tech Stack:
                <ul>HTML
                 <p>CSS</p>
                 Javascript
@@ -25,22 +26,22 @@ const Project3 = () => {
 
 
         </div>
-                    <div className={styles.description}>
+              <div className={styles.description}>
 
-                    This program was developed to generate random jokes 
-                        through an API using this website. The intent of this app is
-                        to allow the user to be entertained during a break from 
-                        studying, work, etc.
- <div className={styles.line}>
+              This program was developed to generate random jokes 
+              through an API using this website. The intent of this app is
+              to allow the user to be entertained during a break from 
+              studying, work, etc.
 
- </div>
-        </div>
-<div className={styles.link}>Github Repository
-<ul>
+	 <div className={styles.line}> </div>
+       
+	 </div>
+	<div className={styles.link}>Github Repository
+	<ul>
         <a href='https://github.com/stormyy00/personal-web'className={styles.button}>View</a>
         </ul>
- </div>
-</div>
+	 </div>
+	</div>
 
 
 

@@ -20,7 +20,7 @@ const Project1 = () => {
 
         <div className={styles.container}>
             <div className={styles.components}>
-                Components used:
+                Tech Stack:
                <ul>Nextjs
                 <p>Vercel</p>
                 Tailwind CSS
