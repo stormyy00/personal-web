@@ -20,6 +20,7 @@
     list-style-type: none;
     font-size: large;
     position: relative;
+    color: white;
   }
   
   .navbar li {
@@ -36,6 +37,7 @@
   font-weight: 500;
   font-family: serif;
     font-variant: small-caps;
+    color: white;
   }
  
 

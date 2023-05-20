@@ -3,6 +3,7 @@
         to top right, #cdcdcb, rgb(53, 49, 49)
     );
     min-height: 120vh;
+    color: white;
 }
 .body2{
     background-color: rgb(61, 59, 59);
