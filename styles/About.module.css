@@ -9,9 +9,9 @@
     background-image: linear-gradient(
         to top right, #cdcdcb, rgb(53, 49, 49)
     );
-    min-height: 130vh;
+    min-height: 140vh;
     position: relative;
-    color: white;
+     color: white;
   
   }
   
@@ -25,18 +25,18 @@
     padding-top: 4rem;
   }
 .container{
-  position: relative;
-  left: 50vh;
+  position: absolute;
+  left: 20%;
+font-size: larger;
+}
 
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
-  /* gap: 200px; */
-  font-size: 25px;  
-  }
 
-  .card{
+
+
+
+   .card{
     position: relative;
-
+    align-self: center;
     text-align: center;
     padding: 10px;
 
@@ -45,17 +45,19 @@
     outline-color: black;
     outline-width: 5px;
 
-    max-width: 50%;
+    max-width: 75%;
   }
 
   .button{
     font-size: 25px;
     position: relative;
     top: 30px;
-    left: 10%;
+    left: 22%;
     border-radius: 15px;
     padding: 20px;
     width: 30%;
+    font-size: xx-large;
     background-color: black;
     margin-top: 7px;
-  }
+  } 
+ 

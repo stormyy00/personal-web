@@ -1,3 +1,7 @@
+@media only screen and (max-width: 300px){
+
+}
+
 .title {
   position: relative;
   text-align: center;
@@ -71,7 +75,7 @@ padding: 10px;
 .column{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 90px;
+  
 }
 .button1{
 gap: 10px;
