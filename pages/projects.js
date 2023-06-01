@@ -47,7 +47,7 @@ const Project = () => {
           <Link href="/project6" className={styles.container}>
           <p className={styles.ptitle}>Spotify Top 10</p>
           {/* <p>c++</p> */}
-          <div className={styles.img5}/>
+          <div className={styles.img6}/>
           </Link>
        {/* <button id={styles.next}>&gt;</button>
        <button id={styles.prev}>&lt;</button> */}

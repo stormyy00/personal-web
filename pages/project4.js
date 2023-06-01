@@ -53,7 +53,7 @@ The Playlist Maker program efficiently utilizes the Lists data structure to hand
                     </div>
        <div className={styles.link}>Github Repository
             <ul>
-                    <a href='https://github.com/stormyy00/personal-web'className={styles.button}>View</a>
+                    <a href='https://github.com/stormyy00'className={styles.button}>View</a>
                     </ul>
              </div>
             </div>
